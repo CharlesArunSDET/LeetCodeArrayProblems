@@ -42,6 +42,13 @@ public class BuildArrayFromPermutation
         for (int k = 0; k < num.length; k++) {
             System.out.println(num[k]);
         }
+        
+      //Explanation
+    	
+    	/*
+    	 * Straight forward logic, made swapped positions with [nums[nums[i]], where i is positive number
+    	 */
+
     }
 	
 

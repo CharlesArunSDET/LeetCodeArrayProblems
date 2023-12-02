@@ -45,4 +45,15 @@ public class ConcatenationOfArray {
 				
 			}
 		}
+		
+		//Explanation
+		
+		/*
+		 * Created 2X size of the original array , found issue in the 40th line, where earlier i used 
+		 * 
+		 *  for (int i = 2*arr.length; i < result.length; i++) {
+			        result[i] = arr[i];  // Corrected this line
+			    }
+		 */
+
 }
